@@ -3,12 +3,12 @@
 
 #include <QObject>
 
-class touchsettings : public QObject
+class TouchSettings : public QObject
 {
     Q_OBJECT
 public:
-    explicit touchsettings(QObject *parent = 0);
-    
+    explicit TouchSettings(QObject *parent = 0);
+    Q_INVOKABLE bool isHoverEnabled() const;
 signals:
     
 public slots:

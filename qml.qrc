@@ -14,5 +14,9 @@
         <file>images/stopdisabled.png</file>
         <file>images/stophoverpressed.png</file>
         <file>images/stopnormal.png</file>
+        <file>music/tiltshifted_lost_neon_sun.mp3</file>
+        <file>music/visualization.raw</file>
+        <file>Visualizer.qml</file>
+        <file>BarEntity.qml</file>
     </qresource>
 </RCC>
