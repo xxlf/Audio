@@ -7,7 +7,7 @@ import "glcode.js" as GLCode
 Window {
     title: qsTr("Audio")
     width: 1280
-    height: 768
+    height: 700
     visible: true
     
     Canvas3D {
