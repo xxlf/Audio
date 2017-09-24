@@ -1,6 +1,6 @@
 TEMPLATE = app
 
-QT += qml quick 3dcore 3dquick multimedia
+QT += qml quick 3dcore 3dquick multimedia widgets
 
 CONFIG += c++11
 

@@ -29,12 +29,12 @@ int main(int argc, char *argv[])
 
     TouchSettings touchSettings;
     view.rootContext()->setContextProperty("touchSettings", &touchSettings);
-
     view.setSource(QUrl("qrc:/main.qml"));
 
     view.setResizeMode(QQuickView::SizeRootObjectToView);
     view.setMaximumSize(QSize(1820, 1080));
     view.setMinimumSize(QSize(300, 150));
     view.show();
+    
     return app.exec();
 }
